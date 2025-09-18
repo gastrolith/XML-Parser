@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XML Parser</title>
+</head>
+<body>
+    <h1>XML Parser</h1>
+    <p>Upload a single XLM file OR a folder that contains XML files, and then this website will pull the information from the tiers within the XML file and write them to a single text file/a folder of text files (respectively).</p>
+    <div id="main-box">
+        <div id="upload-box">
+            <input type="radio" id="fileoption" name="choice" value="fileoption">
+            <label for="fileoption">Single XML</label><br>
+            <input type="radio" id="folderoption" name="choice" value="folderoption">
+            <label for="folderoption">Folder of XMLs</label><br>
+            <label for="avatar">Choose an XML file/a folder of XML files:</label>
+            <input type="file" id="XML" name="XML"/>
+            <button id="parse-button">Parse</button>
+        </div>
+        <div id="download-box"> 
+            <a id="download-link">Nothing to Download</a>
+        </div>
+    </div>
+</body>
+</html>
