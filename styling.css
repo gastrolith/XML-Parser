@@ -1,0 +1,119 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: white;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgb(0, 110, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Main Box Styling */
+#main-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #e5e5e5;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Upload Box Styling */
+#upload-box {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid rgb(0, 110, 255);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 1.2rem;
+    color: rgb(0, 110, 255);
+    font-weight: 700;
+}
+
+label {
+    font-size: 1rem;
+    color: black;
+    margin-right: 10px;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: rgb(0, 110, 255);
+}
+
+/* File Input */
+input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    background: #d1d1d1;
+    color: black;
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+/* Button Styling */
+button {
+    background: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(0, 110, 255);
+}
+
+button:disabled {
+    background: #444;
+    color: #686868;
+    cursor: not-allowed;
+}
+
+/* Download Box */
+#download-box {
+    margin-top: 20px;
+}
+
+/* Links Styling */
+a {
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 12px;
+    font-size: 1.1rem;
+}
